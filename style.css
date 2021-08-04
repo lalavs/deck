@@ -174,7 +174,7 @@ body {
     color: rgba(29,31,36,0.7);
 }
 
-.btn__content {
+.content__plate {
     position: absolute;
     top: 342px;
     left: -2px;
@@ -195,19 +195,19 @@ body {
     transition: font-size 0.1s linear;
 }
 
-.btn-2 {
+.plate-2 {
     top: 149px;
 }
 
-.btn-3 {
+.plate-3 {
     width: 104px;
 }
 
-.btn-5 {
+.plate-5 {
     width: 162px;
 }
 
-.btn__content:hover {
+.content__plate:hover {
     background-color: #f83b41;
     font-size: 15px;
 }
@@ -427,7 +427,7 @@ body {
     }
 }
 
-@media (max-width: 1010px) {
+@media (max-width: 1011px) {
 
     .header__nav {
         display: none;
