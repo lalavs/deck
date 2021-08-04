@@ -179,13 +179,14 @@ body {
     top: 342px;
     left: -2px;
     width: 120px;
+    padding-right: 5px;
     background-color: #ff555c;
     border: 0px;
     height: 40px;
+    line-height: 40px;
     font-family: 'Oswald', sans-serif;
     font-weight: 400;
     font-size: 14px;
-    line-height: 21px;
     letter-spacing: 1.75px;
     color: #fff;
     text-transform: uppercase;
@@ -361,11 +362,8 @@ body {
     fill: #ff555c;
 }
 
-
-
 /* media */
-
-@media (max-width: 1354px) {
+@media screen and (max-width: 1354px) {
 
     .content__inner {
         grid-template-columns: repeat(4, [col] 1fr);
@@ -416,7 +414,7 @@ body {
     }   
 }
 
-@media (max-width: 1125px) {
+@media screen and (max-width: 1125px) {
 
     .footer__contacts {
         margin-top: 40px;
@@ -427,7 +425,7 @@ body {
     }
 }
 
-@media (max-width: 1010px) {
+@media screen and (max-width: 1010px) {
 
     .header__nav {
         display: none;
@@ -470,7 +468,7 @@ body {
     }   
 }
 
-@media (max-width: 958px) {
+@media screen and (max-width: 958px) {
 
     .content {
         margin: 40px 0 120px;
@@ -495,14 +493,14 @@ body {
     }
 }
 
-@media (max-width: 830px) {
+@media screen and (max-width: 830px) {
 
     .footer__coopyright {
         width: 100px;
     }
 }
 
-@media (max-width: 778px) {
+@media screen and (max-width: 778px) {
 
     .container {
         max-width: 768px;
@@ -515,15 +513,13 @@ body {
     }   
 }
 
-@media (max-width: 750px) {
-
+@media screen and (max-width: 750px) {
     .content__photo {
         width: 339px;
     }
 }
 
 @media (max-width: 710px) {
-
     .content__inner {
         grid-template-columns: repeat(3, [col] 1fr);
         grid-template-rows: repeat(2, [row] auto);
@@ -586,8 +582,7 @@ body {
     }
 }
 
-@media (max-width: 414px) {
-
+@media screen and (max-width: 414px) {
     .content__inner {
         grid-template-columns: repeat(2, [col] 1fr);
         grid-template-rows: repeat(2, [row] auto);
@@ -610,8 +605,7 @@ body {
 
 }
 
-@media (max-width: 320px) {
-
+@media screen and (max-width: 320px) {
     .content {
         margin: 20px 0 60px;
     }
@@ -637,8 +631,7 @@ body {
     }
 }
 
-@media (max-width: 280px) {
-
+@media screen and (max-width: 280px) {
     .content__photo {
         width: 240px;
     }
