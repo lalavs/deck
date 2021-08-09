@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <title>Invoice</title>
+</head>
+
+<body>
+    <div class="container">
+        <section class="data">
+        <h1 class="data__name">DesignMNL - Design Manila Studio</h1>
+        <div class="data__adress">
+            <p>Grand Central Residence</p>
+            <p>Mandaluyong City, NCR</p>
+            <p>Philippines 1552</p>
+        </div>
+        <div class="data__email">Email: rockybgonzales@gmail.com</div>
+        </section>
+       
+        <table class="invoice__info">
+            <thead class="invoice__info_head">
+                <tr>
+                    <th>BILL TO:</th>
+                    <th>Please make payable to:</th>
+                    <th>INVOICE:</th>
+                </tr>
+            </thead>
+            <tbody class="invoice__info_body">
+                <tr>
+                    <td>Your client awesome company here</td>
+                    <td>DesignMNL</td>
+                    <td class="last-section invoice-numb">Invoice No: 001</td>
+                </tr>
+                <tr>
+                    <td colspan="2">Your client complete address here</td>
+                    <td class="last-section">September 17, 2014</td>
+                </tr>
+                <tr>
+                    <td><a href="#">http://www.yourdomainhere.com</a></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="invoice__plate">INVOICE 001</div>
+
+        <table class="invoice__item">
+            <thead class="invoice__item_head">
+                <tr>
+                    <th>QUANTITY</th>
+                    <th>DESCRIPTION</th>
+                    <th>UNIT PRICE</th>
+                    <th>PRICE</th>
+                </tr>
+            </thead>
+            <tbody class="invoice__item_body">
+                <tr>
+                    <td>1</td>
+                    <td>Domain and hosting</td>
+                    <td>$ 88,888.<span>00</span></td>
+                    <td>$ 88,888.<span>00</span</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>One-time Configuration and Setup Fee</td>
+                    <td>$ 5,000.<span>00</span></td>
+                    <td>$ 5,000.<span>00</span></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <table class="invoice__sum">
+            <tr>
+                <td class="sum_title" colspan="3">subtotal</td>
+                <td class="sum_total">$ 93,888.<span>00</span></td>
+            </tr>
+            <tr>
+                <td class="sum_title" colspan="3">total</td>
+                <td class="sum_total">$ 93,888.<span>00</span></td>
+            </tr>
+        </table>   
+    
+        <section class="note">
+            <h3 class="note__title">Note:</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+        </section>
+    
+        <footer class="footer">
+            <div class="footer__text">
+                If you have any questions concerning this invoice, please contact
+                <div class="footer__phone">Mobile No. : 
+                <a href="tel:63 917 887 0659">+63 917 887 0659</a>
+                </div>
+                THANK YOU FOR YOUR BUSINESS!
+            </div>        
+        </footer>
+    </div> <!-- container -->   
+</body>
+</html>
