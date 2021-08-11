@@ -15,6 +15,7 @@ body {
 
 .container {
     max-width: 1440px;
+    min-width: 500px;
     margin: 0 auto;
     padding: 0 20px;
 }
@@ -50,18 +51,21 @@ body {
 
 /* invoice info */
 
-.invoice__info {
-    margin-top: 30px;
-    margin-bottom: 70px;
+table {
     width: 100%;
     border-collapse: collapse;
+}
+
+.invoice-info {
+    margin-top: 30px;
+    margin-bottom: 70px;
 }
 
 table th:last-child {
     text-align: right;
 }
 
-.invoice__info_head {
+.invoice-info__head {
     font-size: 12px;
     font-weight: 700;
     text-transform: uppercase;
@@ -69,7 +73,7 @@ table th:last-child {
     color:#999999;
 }
 
-.invoice__info_body {
+.invoice-info__body {
     font-size: 16px;
     line-height: 26px;
     color: #333333;
@@ -84,18 +88,9 @@ table th:last-child {
     color: #3498db;
 }
 
-td a {
-    text-decoration: none;
-    color: #333333;
-}
-
-td a:hover {
-    text-decoration: underline;
-}
-
 /* invoice plate */
 
-.invoice__plate {
+.invoice-plate {
     height: 46px;
     background-color: #3498db;
     border-bottom: 3px solid #2980b9;
@@ -109,13 +104,11 @@ td a:hover {
 
 /* invoice item */
 
-.invoice__item {
-    width: 100%;
-    border-collapse: collapse;
+.invoice-item {
     margin-bottom: 40px;
 }
 
-.invoice__item_head {
+.invoice-item__head {
     font-size: 18px;
     font-weight: 700;
     line-height: 40px;
@@ -124,51 +117,45 @@ td a:hover {
     color:#999999;
 }
 
-.invoice__item_body td {
+.invoice-item__body td {
     padding-bottom: 12px;
     font-size: 16px;
     font-weight: 700;
     color: #1e68bc;
 }
 
-.invoice__item_body td:last-child {
-    text-align: right;   
+.invoice-item__body td:last-child {
+    text-align: right;
 }
 
-.invoice__item_body span {
-    font-size: 13px;
+.item-sum {
+    white-space: nowrap;
 }
 
 /* invoice sum */
 
-.invoice__sum {
-    width: 100%;
-    border-collapse: collapse;
+.invoice-sum {
     border-bottom: 3px solid #3498db;
     margin-bottom: 60px;
 }
 
-.invoice__sum td {
+.invoice-sum td {
     padding: 24px 0;
     border-top: 1px solid #3498db;
 }
 
-.invoice__sum span {
-    font-size: 13px;
-}
-
-.invoice__sum td:last-child {
+.invoice-sum td:last-child {
     text-align: right;
 }
 
-.sum_title {
+.sum-title {
     font-size: 17px;
     font-weight: 700;
     text-transform: uppercase;
     color: #999999;
 }
 
-.sum_total {
+.sum-total {
     font-size: 20px;
     font-weight: 700;
     color: #1e68bc;
@@ -200,7 +187,6 @@ td a:hover {
 .footer {
     padding: 23px 0;
     background-color: #eaf4fb;
-    height: 101px;
     border-top: 2px solid #1e68bc;
     text-align: center;
     font-size: 13px;
@@ -209,11 +195,6 @@ td a:hover {
     margin-bottom: 30px;
 }
 
-.footer__phone a {
-    text-decoration: none;
-    color: #000;
-}
-
-.footer__phone a:hover {
-    text-decoration: underline;
+.footer p {
+    margin: 0;
 }
