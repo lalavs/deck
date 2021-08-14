@@ -1,8 +1,7 @@
 body {
     margin: 0px;
     font-family: 'Open Sans', sans-serif;
-    background: url(img/bg.jpg) no-repeat center;
-    background-size: 100%;
+    background: url(img/bg.jpg);
     -webkit-font-smoothing: antialiased;
 }
 
